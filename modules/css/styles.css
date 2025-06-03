@@ -4,7 +4,9 @@
     --points-price-green: #008641;
     --main-orange: #EB560C;
     --header1-text: #999999;
-    --highlight-gray: #EEEEEE;
+    --highlight-grey: #EEEEEE;
+    --button-grey: #747474;
+    --very-highlight-grey: #F6F6F6;
    
 }
 
@@ -32,8 +34,12 @@
     font-size: 14px;
     font-family: Helvetica_regular;
 }
+a{
+  text-decoration: none;
+}
 
 
+/*Header 1*/
 .header_block1 {
   display: flex;
   justify-content: flex-end;
@@ -65,7 +71,7 @@
   background-color: white;
 }
 .header_block1-center-drop_down_button:active {
-  background-color: var(--highlight-gray);
+  background-color: var(--highlight-grey);
 }
 .h1_menu_icon {
   width: 20px;
@@ -77,6 +83,71 @@
   height: 8px;
   fill: var(--header1-text);
 }
+
+
+/*Header 2*/
+.header_block2 {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo_image {
+  width: 74px;
+  height: 50px;
+}
+.h2_social_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+.h2_social_icon_circle {
+  fill: var(--button-grey);
+}
+.h2_social_icon:hover .h2_social_icon_circle{
+  fill: black;
+}
+.h2_other_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  height: 50px;
+}
+.h2_other_icons * {
+  height: 25px;
+}
+.h2_other_active_icon {
+  fill: var(--button-grey);
+}
+.h2_other_active_icon:hover{
+  fill: #646464;
+}
+.h2_phone_block {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h2_phone_icon {
+  width: 25px;
+}
+.h2_phone_block p {
+  font-size: 16px;
+  font-family: Helvetica_bold;
+  text-align: center;
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+.h2_phone_block p:hover {
+  color: var(--button-grey);
+}
+
+
 
 @media (min-width: 980px) {
   .header_block1-center-text_block {
@@ -97,5 +168,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .h2_social_icons {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+  .h2_other_icons {
+    width: 140px;
+  }
+  .h2_phone_block p{
+    display: none;
+  }
+  .h2_phone_menu_show_icon {
+    display: none;
   }
 }
