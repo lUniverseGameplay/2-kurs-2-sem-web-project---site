@@ -7,7 +7,8 @@
     --highlight-grey: #EEEEEE;
     --button-grey: #747474;
     --very-highlight-grey: #F6F6F6;
-   
+    --icon-grey: #777777;
+    --header-icon-gray: #808080;
 }
 
 /*шрифты*/
@@ -38,6 +39,11 @@ a{
   text-decoration: none;
 }
 
+/*.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}*/
 
 /*Header 1*/
 .header_block1 {
@@ -94,10 +100,12 @@ a{
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .logo_image {
   width: 74px;
   height: 50px;
 }
+
 .h2_social_icons {
   display: flex;
   justify-content: space-between;
@@ -111,6 +119,7 @@ a{
 .h2_social_icon:hover .h2_social_icon_circle{
   fill: black;
 }
+
 .h2_other_icons {
   display: flex;
   justify-content: space-between;
@@ -148,6 +157,77 @@ a{
 }
 
 
+/*Header 3*/
+.header_block3 {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  padding: 0px;
+}
+.h3_navigation_blocks {
+  flex-shrink: 0; /*для того, чтобы элементы не изменялись при уменьшении размеров*/
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.h3_navigation_blocks:hover {
+  background-color: var(--dark-grey);
+}
+.h3_catalog_button {
+  width: 240px;
+}
+.h3_navigation_blocks_icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--header-icon-gray);
+  margin: 5px;
+}
+.h3_navigation_blocks_text {
+  font-size: 18px;
+  font-family: Museo_sans;
+  text-align: center;
+  text-decoration: none;
+  color: white;  
+}
+
+.h3_search_block {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9; /*заливка*/
+  border-radius: 10px;
+}
+.h3_search_block input {
+  width: 100%;
+  height: 25px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: var(--icon-grey); /*текст*/
+  background-color: #d9d9d9; /*заливка*/
+}
+.h3_search_block svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  transition-duration: 200ms; /*для плавного увеличения иконки*/
+  transition-timing-function: ease;
+}
+.h3_search_block:hover input {
+  background-color: white;
+}
+.h3_search_block:hover {
+  background-color: white;
+}
+.h3_search_block svg:hover {
+  transform: scale(1.1);
+}
 
 @media (min-width: 980px) {
   .header_block1-center-text_block {
@@ -169,6 +249,7 @@ a{
     align-items: center;
     justify-content: center;
   }
+
   .h2_social_icons {
     display: none;
   }
@@ -182,5 +263,18 @@ a{
   }
   .h2_phone_menu_show_icon {
     display: none;
+  }
+
+  .h3_show_icon {
+    display: none;
+  }
+  .h3_navigation_blocks_text {
+    display: none;
+  }
+  .h3_navigation_blocks {
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
   }
 }
