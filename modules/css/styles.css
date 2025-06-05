@@ -411,7 +411,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .m7_banner h1 {
   height: 30px;
@@ -462,6 +462,9 @@ a{
 }
 #m7_subscribe_input_field a:hover {
   background-color: var(--dark-grey);
+}
+.m7_social_icons {
+  height: 40px;
 }
 
 
@@ -520,6 +523,14 @@ a{
   .m2_fractions_button_Death { grid-area: 3 / 2 / 4 / 3; }
   .m2_fractions_button_Chaos_allyans { grid-area: 4 / 1 / 5 / 2; }
   .m2_fractions_button_Destruction { grid-area: 4 / 2 / 5 / 3; }
+
+  .m7_banners_block {
+    flex-direction: column;
+    height: 350px;
+  }
+  .m7_social_icons {
+    display: block;
+  }
 }
 @media (max-width: 780px) {
   /*---------------------------------------Header------------------------------------------*/
