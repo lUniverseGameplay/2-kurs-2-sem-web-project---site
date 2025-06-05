@@ -394,6 +394,77 @@ a{
 }
 
 
+.m7_banners_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  max-width: 1460px;
+}
+.m7_banner {
+  background-color: var(--grey-banner);
+  width: 470px;
+  height: 140px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.m7_banner h1 {
+  height: 30px;
+  width: 100%;
+  font-size: 24px;
+  font-family: Museo_sans;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.m7_banner p {
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  font-family: Helvetica_regular;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-grey);
+}
+#m7_subscribe_input_field {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#m7_subscribe_input_field input {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: var(--button-grey); /*текст*/
+  background-color: white;
+  border-radius: 36px;
+}
+#m7_subscribe_input_field a {
+  width: 120px;
+  height: 30px;
+  font-size: 13px;
+  font-family: Helvetica_regular;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  background-color: black;
+  border-radius: 36px;
+}
+#m7_subscribe_input_field a:hover {
+  background-color: var(--dark-grey);
+}
+
+
 @media (min-width: 980px) {
   /*---------------------------------------Header blocks------------------------------------------*/
   .header_block1-center-text_block {
