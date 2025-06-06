@@ -1,0 +1,198 @@
+:root {
+    /*цвета*/
+    --dark-grey: #333333;
+    --points-price-green: #008641;
+    --main-orange: #EB560C;
+    --header1-text: #999999;
+    --highlight-grey: #EEEEEE;
+    --button-grey: #747474;
+    --very-highlight-grey: #F6F6F6;
+    --icon-grey: #777777;
+    --header-icon-gray: #808080;
+    --grey-banner: #F5F5F7;
+    --main-grey: #BBBBBB;
+}
+
+/*шрифты*/
+@font-face {
+  font-family: "Museo_sans";
+  src:
+    url("/fonts/Museo_Sans_Cyrl_900.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Helvetica_regular";
+  src:
+    url("/fonts/Helvetica/helvetica_regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica_bold";
+  src:
+    url("/fonts/Helvetica/helvetica_bold.otf") format("opentype");
+}
+
+* {
+    margin: 0; /*общее свойство для удаления margin*/
+    font-size: 14px;
+    font-family: Helvetica_regular;
+}
+a{
+  text-decoration: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.temp_card_block {
+    width: 720px;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------------------------------------Product card------------------------------------------*/
+
+.m_product_card {
+    width: 238px;
+    height: 405px;
+    padding: 5px 20px 5px 20px;
+    border: solid 0.25px var(--main-grey);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position:relative;
+}
+
+.m_product_card_slider {
+    width: 240px;
+    height: 290px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.m_product_slider {
+    width: 60px;
+    height: 290px;
+    z-index: 2;
+    border-bottom: solid 2px var(--main-grey);
+}
+.m_product_slider img {
+    width: 240px;
+    height: 290px;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+#m_terminator_slider1 img { display: block; }
+.m_product_slider:hover img { display: block; }
+#m_terminator_slider2:hover img { right: 60px; }
+#m_terminator_slider3:hover img { right: 120px; }
+#m_terminator_slider4:hover img { right: 180px; }
+.m_product_slider:hover { border-bottom: solid 2px black; }
+
+.m_product_card_name {
+    width: 240px;
+    height: 35px;
+    font-size: 13px;
+    font-family: Helvetica_regular;
+    text-decoration: none;
+    color: black;
+}
+.m_product_card_rate {
+    width: 240px;
+    height: 18px;
+    display: flex;
+    justify-content: left;
+}
+.m_product_card_rate svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--main-orange);
+}
+.m_product_card_rate p {
+    width: 212px;
+    height: 18px;
+    font-size: 13px;
+    font-family: Helvetica_regular;
+    text-decoration: none;
+    color: var(--main-grey);
+    padding-left: 10px;
+}
+
+.m_product_card_price_block {
+    width: 240px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.m_product_card_price_block p {
+    width: 120px;
+    height: 20px;
+    font-size: 18px;
+    font-family: Museo_sans;
+    text-decoration: none;
+    color: black;
+}
+
+
+.m_product_card_buy_block {
+    width: 120px;
+    height: 45px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 50px;
+}
+.m_product_card_buy_block_buy_button {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -3px;
+}
+.m_product_card_buy_block_counter_button {
+    width: 20px;
+    height: 36px;
+    display: none;
+}
+.m_product_card_buy_block input {
+    width: 20px;
+    height: 36px;
+    text-align: center;
+    border: none;
+    outline: none;
+    display: none;
+}
+.m_product_card_buy_block_buy_button:hover ellipse { fill: var(--dark-grey); }
+.m_product_card_buy_block:hover { border: solid 0.25px var(--main-grey); }
+.m_product_card_buy_block:hover .m_product_card_buy_block_counter_button { display: block; }
+.m_product_card_buy_block:hover input { display: block; }
+
+.m_product_card_description {
+    width: 240px;
+    height: 100%;
+    font-size: 12px;
+    font-family: Helvetica_regular;
+    text-decoration: none;
+    text-align: left;
+    color: var(--main-grey);
+    display: none;
+}
+
+.m_product_card:hover {
+    height: 525px;
+    box-shadow: 1px 5px 15px 0px var(--button-grey);
+    border: none;
+}
+    
+.m_product_card:hover .m_product_card_description { display: block; }
