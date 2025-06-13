@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Содержимое корзины</title>  <!--Отображаемое название страницы (в браузере)-->
+        <meta name="viewport" content="width=device-width", initial-scale=1 , user-scalable=1/> <!--нормально работают медиа запросы !НЕ ТРОГАТЬ!-->
+        <link rel="icon" sizes="16x16 32x32 48x48" href="/images/icons/mini-icon/logo_mtnm-hp.png" /> <!--мини-иконка на вкладке сайта-->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        
+        <div class="cart_body">
+            <div class="page_path_link">
+                <a href="/main.html">Главная</a>
+                <p>/</p>
+                <p>Содержимое корзины</p>
+            </div>
+            <h1>Содержимое корзины</h1>
+            <div class="c_button_block">
+                <a href="/main.html" class="c_button_continue">
+                    <p>Продолжить покупки</p>
+                </a>
+                <a href="" class="c_button_apply"> <!--Вставить ссылку-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                        <path d="M9.743 15.314L5.5 11.07L6.914 9.656L9.743 12.484L15.399 6.827L16.814 8.242L9.743 15.314Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 11C0.5 4.925 5.425 0 11.5 0C17.575 0 22.5 4.925 22.5 11C22.5 17.075 17.575 22 11.5 22C5.425 22 0.5 17.075 0.5 11ZM11.5 20C10.3181 20 9.14778 19.7672 8.05585 19.3149C6.96392 18.8626 5.97177 18.1997 5.13604 17.364C4.30031 16.5282 3.63738 15.5361 3.18508 14.4442C2.73279 13.3522 2.5 12.1819 2.5 11C2.5 9.8181 2.73279 8.64778 3.18508 7.55585C3.63738 6.46392 4.30031 5.47177 5.13604 4.63604C5.97177 3.80031 6.96392 3.13738 8.05585 2.68508C9.14778 2.23279 10.3181 2 11.5 2C13.8869 2 16.1761 2.94821 17.864 4.63604C19.5518 6.32387 20.5 8.61305 20.5 11C20.5 13.3869 19.5518 15.6761 17.864 17.364C16.1761 19.0518 13.8869 20 11.5 20Z" fill="white"/>
+                    </svg>
+                    <p>Оформить заказ</p>
+                </a>
+            </div>
+
+            <div class="c_tovar_block">
+                <div class="c_tovar_name_photo">
+                    <p class="c_tovar_header">Товар</p>
+                    <a href="/product.html"><img src="/images/Карточки товаров/GK-terminators1.jpg" alt="Терминаторы серых рыцарей"></a>
+                </div>
+
+                <div class="c_tovar_main_info">
+                    <div>
+                        <div class="c_tovar_info_name">
+                            <a href="/product.html">Grey Knights Terminator Squad (3 литника) [40K]</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19 9.83337C19 11.0809 18.7543 12.3163 18.2769 13.4689C17.7994 14.6215 17.0997 15.6687 16.2175 16.5509C15.3354 17.433 14.2881 18.1328 13.1355 18.6102C11.9829 19.0877 10.7476 19.3334 9.5 19.3334C8.25244 19.3334 7.0171 19.0877 5.86451 18.6102C4.71191 18.1328 3.66464 17.433 2.78249 16.5509C1.90033 15.6687 1.20056 14.6215 0.723144 13.4689C0.245725 12.3163 -1.85901e-08 11.0809 0 9.83337C3.75443e-08 7.31382 1.00089 4.89746 2.78249 3.11586C4.56408 1.33426 6.98044 0.333374 9.5 0.333374C12.0196 0.333374 14.4359 1.33426 16.2175 3.11586C17.9991 4.89746 19 7.31382 19 9.83337ZM4.5315 14.8019C4.33361 14.6039 4.22245 14.3355 4.22245 14.0556C4.22245 13.7757 4.33361 13.5073 4.5315 13.3093L8.00745 9.83337L4.5315 6.35743C4.33922 6.15835 4.23283 5.89171 4.23523 5.61495C4.23764 5.33819 4.34865 5.07344 4.54436 4.87773C4.74007 4.68202 5.00481 4.57101 5.28158 4.56861C5.55834 4.5662 5.82498 4.6726 6.02406 4.86487L9.5 8.34082L12.9759 4.86487C13.0733 4.76406 13.1898 4.68364 13.3186 4.62832C13.4474 4.573 13.5859 4.54388 13.726 4.54267C13.8662 4.54145 14.0052 4.56815 14.1349 4.62123C14.2646 4.6743 14.3825 4.75268 14.4816 4.85179C14.5807 4.9509 14.6591 5.06875 14.7121 5.19848C14.7652 5.3282 14.7919 5.4672 14.7907 5.60735C14.7895 5.74751 14.7604 5.88602 14.7051 6.0148C14.6497 6.14358 14.5693 6.26006 14.4685 6.35743L10.9926 9.83337L14.4685 13.3093C14.6608 13.5084 14.7672 13.775 14.7648 14.0518C14.7624 14.3286 14.6514 14.5933 14.4556 14.789C14.2599 14.9847 13.9952 15.0957 13.7184 15.0981C13.4417 15.1005 13.175 14.9942 12.9759 14.8019L9.5 11.3259L6.02406 14.8019C5.82611 14.9998 5.55767 15.1109 5.27778 15.1109C4.99788 15.1109 4.72945 14.9998 4.5315 14.8019Z" fill="#A2A2A2"/>
+                            </svg>
+                        </div>
+                        <p class="c_tovar_info_variant">Без подставок</p>
+                        <p class="c_tovar_text">КОД: 2668</p>
+                    </div>
+                    <div class="c_tovar_info_variation">
+                        <p class="c_tovar_header">Наличие подставки:</p>
+                        <p class="c_tovar_text">Без подставок</p>
+                    </div>
+                    <div class="c_tovar_info_points">
+                        <div>
+                            <p class="c_tovar_header">Цена в баллах:</p>
+                            <p class="c_tovar_text">2300 баллов</p>
+                        </div>
+                        <div>
+                            <p class="c_tovar_header">Бонусные баллы:</p>
+                            <p class="c_tovar_text">69 баллов</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c_tovar_one_price">
+                    <p class="c_tovar_header">Цена за ед.</p>
+                    <p class="c_tovar_text">2 300 ₽</p>
+                </div>
+                <div class="c_tovar_count">
+                    <p class="c_tovar_header">Кол-во</p>
+                    <div class="p_buy_block_counter c_tovar_counter">
+                        <svg class="p_buy_block_counter_button" xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+                            <path d="M16 19H4V17H16V19Z" fill="#777777"/>
+                        </svg>
+                        <input type="text" value="1">
+                        <svg class="p_buy_block_counter_button" xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+                            <path d="M16 18.8571H10.8571V24H9.14286V18.8571H4V17.1429H9.14286V12H10.8571V17.1429H16V18.8571Z" fill="#777777"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="c_tovar_final_price">
+                    <p class="c_tovar_header">Итого</p>
+                    <p class="c_tovar_text">2 300 ₽</p>
+                </div>
+            </div>
+
+            <div class="c_price_block">
+                <div class="c_price_block_settings">
+                    <div class="c_price_block_promo_input">
+                        <p>Подарочный сертификат или промо-код</p>
+                        <div class="c_price_block_input_field">
+                            <input type="text">
+                            <p>Применить</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="c_price_block_texts_block">
+                            <p>Сумма</p>
+                            <p>2 300 ₽</p>
+                        </div>
+                        <div class="c_price_block_texts_block">
+                            <p>Стоимость доставки</p>
+                            <p>Рассчитать</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c_price_block_final_price">
+                    <p>Итоговая стоимость</p>
+                    <p>2 300 ₽</p>
+                </div>
+            </div>
+            <div class="c_button_block c_button_block_2">
+                <a href="/main.html" class="c_button_continue c_button_continue_2">
+                    <p>Продолжить покупки</p>
+                </a>
+                <a href="" class="c_button_clear">
+                    <p>Очистить корзину</p>
+                </a>
+                <a href="" class="c_button_apply"> <!--Вставить ссылку-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                        <path d="M9.743 15.314L5.5 11.07L6.914 9.656L9.743 12.484L15.399 6.827L16.814 8.242L9.743 15.314Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 11C0.5 4.925 5.425 0 11.5 0C17.575 0 22.5 4.925 22.5 11C22.5 17.075 17.575 22 11.5 22C5.425 22 0.5 17.075 0.5 11ZM11.5 20C10.3181 20 9.14778 19.7672 8.05585 19.3149C6.96392 18.8626 5.97177 18.1997 5.13604 17.364C4.30031 16.5282 3.63738 15.5361 3.18508 14.4442C2.73279 13.3522 2.5 12.1819 2.5 11C2.5 9.8181 2.73279 8.64778 3.18508 7.55585C3.63738 6.46392 4.30031 5.47177 5.13604 4.63604C5.97177 3.80031 6.96392 3.13738 8.05585 2.68508C9.14778 2.23279 10.3181 2 11.5 2C13.8869 2 16.1761 2.94821 17.864 4.63604C19.5518 6.32387 20.5 8.61305 20.5 11C20.5 13.3869 19.5518 15.6761 17.864 17.364C16.1761 19.0518 13.8869 20 11.5 20Z" fill="white"/>
+                    </svg>
+                    <p>Оформить заказ</p>
+                </a>
+            </div>
+        </div>
+        
+    </body>
+</html>
