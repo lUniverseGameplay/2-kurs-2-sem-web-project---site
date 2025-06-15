@@ -942,10 +942,10 @@ a{
   color: var(--icon-grey);
 }
 #p_ask_question { width: 130px; }
-.p_buy_block_other_buttons:hover * {
+/*.p_buy_block_other_buttons:hover * {
   color: var(--dark-grey);
   fill: var(--dark-grey);
-}
+}*/
 .p_buy_block_down a {
   width: 100%-20px;
   height: 37px;
@@ -1331,7 +1331,7 @@ a{
   color:var(--main-grey);
   font-size: 14px;
 }
-
+.cart_body {margin-bottom: 20px;}
 
 @media (max-width: 1150px) {
   .m_cards_block #m_catapharactii_terminators {
