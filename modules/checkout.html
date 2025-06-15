@@ -8,184 +8,73 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <div class="header">
-            <div class="header_block1">
-                <div class="header_block1-center">
-                    <div class="header_block1-center-text_block">
-                        <a href="">Блог</a>
-                        <a href="">Доставка и оплата</a>
-                        <a href="">Промо-акции</a>
-                        <a href="">Новинки</a>
-                        <a href="">Товары со скидкой</a>
-                    </div>
-                    <button class="header_block1-center-drop_down_button" aria-expanded="false" aria-controls="list">
-                        <svg class="h1_menu_icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M2.17778 0.400002C1.19111 0.400002 0.4 1.19111 0.4 2.17778V14.6222C0.4 15.6089 1.19111 16.4 2.17778 16.4H14.6222C15.6089 16.4 16.4 15.6089 16.4 14.6222V2.17778C16.4 1.19111 15.6089 0.400002 14.6222 0.400002H2.17778ZM2.17778 2.17778H14.6222V14.6222H2.17778V2.17778ZM3.95556 3.95556V5.73334H12.8444V3.95556H3.95556ZM3.95556 7.51111V9.28889H12.8444V7.51111H3.95556ZM3.95556 11.0667V12.8444H10.1778V11.0667H3.95556Z"/>
-                        </svg>
-                        <svg class="h1_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                            <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
-                        </svg>
-                        <!--<svg class="h1_hide_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                            <path d="M1.07209 5L0.5 4.25637L3.61789 0.206022C3.66785 0.140733 3.72726 0.0889179 3.7927 0.0535603C3.85813 0.0182026 3.92831 0 3.99919 0C4.07007 0 4.14025 0.0182026 4.20569 0.0535603C4.27112 0.0889179 4.33053 0.140733 4.38049 0.206022L7.5 4.25637L6.92791 4.9993L4 1.19776L1.07209 5Z"/>
-                        </svg>-->
-                    </button>
-                </div>
-            </div>
-            <div class="header_block2">
+        <div class="header_short">
+            <div class="header_short_block">
                 <a href="/main.html"> <!--Логотип-->
                     <img class="logo_image" src="/images/icons/logo_mtnm-hp.png" alt="Логотип WebWay"/>
                 </a>
-                <div class="h2_social_icons"> <!--Социальные иконки-->
-                    <a href="">
-                        <svg class="h2_social_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle class="h2_social_icon_circle" cx="20" cy="20" r="20"/>
-                            <path d="M28.2767 28.9985H26.3058C25.5605 28.9985 25.3359 27.9823 23.9998 25.7319C22.8322 23.8376 22.339 23.6021 22.0437 23.6021C21.6351 23.6021 21.5237 23.7911 21.5237 24.7375V27.7207C21.5237 28.5275 21.3683 29 20.116 29C18.901 28.8626 17.7229 28.2413 16.6786 27.1874C15.6342 26.1334 14.7536 24.6768 14.1092 22.9377C12.5797 19.7316 11.5151 15.9695 11 11.95C11 11.4528 11.1123 11.0021 11.6754 11.0021H13.6445C14.1506 11.0021 14.3329 11.3816 14.5315 12.2582C15.4876 16.9946 17.119 21.1147 17.7815 21.1147C18.0354 21.1147 18.1459 20.9257 18.1459 19.86V14.9811C18.0622 12.7554 17.36 12.5678 17.36 11.7625C17.3689 11.55 17.4266 11.3517 17.521 11.2097C17.6153 11.0677 17.7388 10.9933 17.8653 11.0021H20.9606C21.3838 11.0021 21.5237 11.3568 21.5237 12.2088V18.7944C21.5237 19.5053 21.7051 19.7408 21.8329 19.7408C22.0868 19.7408 22.282 19.5053 22.7475 18.7232C23.745 16.6743 24.5602 14.3922 25.1675 11.9485C25.2294 11.6548 25.3468 11.4034 25.5017 11.2327C25.6566 11.062 25.8405 10.9815 26.0251 11.0036H27.9951C28.5859 11.0036 28.7111 11.5008 28.5859 12.2102C27.8692 14.9118 26.9826 17.4764 25.9414 19.86C25.7289 20.4052 25.6443 20.6887 25.9414 21.3284C26.1365 21.8256 26.8275 22.7967 27.2913 23.7198C27.9667 24.8538 28.5272 26.1651 28.9512 27.6015C29.1205 28.5261 28.8389 28.9985 28.2767 28.9985Z" fill="white"/>
-                        </svg>
-                    </a>                    
-                    <a href="">
-                        <svg class="h2_social_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle class="h2_social_icon_circle" cx="20" cy="20" r="20"/>
-                            <path d="M17.8 24.1429L23.509 20.2L17.8 16.2571V24.1429ZM30.516 13.852C30.659 14.4697 30.758 15.2977 30.824 16.3491C30.901 17.4006 30.934 18.3074 30.934 19.096L31 20.2C31 23.0783 30.824 25.1943 30.516 26.548C30.241 27.7309 29.603 28.4931 28.613 28.8217C28.096 28.9926 27.15 29.1109 25.698 29.1897C24.268 29.2817 22.959 29.3211 21.749 29.3211L20 29.4C15.391 29.4 12.52 29.1897 11.387 28.8217C10.397 28.4931 9.759 27.7309 9.484 26.548C9.341 25.9303 9.242 25.1023 9.176 24.0509C9.099 22.9994 9.066 22.0926 9.066 21.304L9 20.2C9 17.3217 9.176 15.2057 9.484 13.852C9.759 12.6691 10.397 11.9069 11.387 11.5783C11.904 11.4074 12.85 11.2891 14.302 11.2103C15.732 11.1183 17.041 11.0789 18.251 11.0789L20 11C24.609 11 27.48 11.2103 28.613 11.5783C29.603 11.9069 30.241 12.6691 30.516 13.852Z" fill="white"/>
-                        </svg>
-                    </a>
-                    <a href="">
-                        <svg class="h2_social_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle class="h2_social_icon_circle" cx="20" cy="20" r="20"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.2632 27.8199V27.8178L25.2795 27.7734L28 12.1618V12.1122C28 11.7229 27.873 11.3832 27.599 11.1798C27.3587 11.0012 27.082 10.9888 26.8879 11.0053C26.7072 11.0241 26.5289 11.0657 26.3563 11.1292C26.2826 11.156 26.21 11.1863 26.1386 11.2201L26.1268 11.2253L10.9595 17.9975L10.955 17.9996C10.9085 18.0164 10.8633 18.0375 10.8198 18.0626C10.712 18.1179 10.6085 18.1835 10.5105 18.2588C10.3155 18.4116 9.94443 18.7709 10.007 19.3409C10.0587 19.8137 10.3445 20.1132 10.5377 20.2691C10.6515 20.3605 10.7742 20.4367 10.9033 20.4962L10.9323 20.5107L10.9414 20.5138L10.9477 20.5169L13.602 21.5339C13.5923 21.7239 13.6096 21.9149 13.6537 22.107L14.9826 27.8467C15.0552 28.1596 15.2121 28.4387 15.4312 28.6449C15.6504 28.8511 15.9207 28.974 16.2044 28.9963C16.488 29.0186 16.7706 28.9393 17.0126 28.7694C17.2546 28.5995 17.4437 28.3476 17.5535 28.0491L19.629 25.5236L23.1931 28.6335L23.2439 28.6583C23.5677 28.8193 23.8698 28.8699 24.1465 28.8276C24.4232 28.7842 24.6427 28.6521 24.8078 28.5024C24.9988 28.3262 25.151 28.1017 25.2523 27.8467L25.2596 27.8292L25.2623 27.823L25.2632 27.8199ZM14.969 21.7125C14.9543 21.6489 14.9578 21.5815 14.979 21.5202C15.0002 21.4589 15.038 21.407 15.087 21.3718L24.0866 14.867C24.0866 14.867 24.6164 14.5004 24.5973 14.867C24.5973 14.867 24.6917 14.931 24.4078 15.2314C24.1392 15.5174 17.9934 22.2711 17.3711 22.9547C17.3374 22.9936 17.3133 23.0421 17.3013 23.0951L16.298 27.4523L14.969 21.7125Z" fill="white"/>
-                        </svg>
-                    </a>
+                <div class="h2_phone_block">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M15.25 1.5C18.2337 1.5 21.0952 2.68526 23.205 4.79505C25.3147 6.90483 26.5 9.76631 26.5 12.75M15.25 6.5C16.9076 6.5 18.4973 7.15848 19.6694 8.33058C20.8415 9.50269 21.5 11.0924 21.5 12.75M16.29 19.71C16.5482 19.8286 16.839 19.8556 17.1146 19.7868C17.3902 19.718 17.6342 19.5573 17.8063 19.3312L18.25 18.75C18.4829 18.4395 18.7848 18.1875 19.132 18.0139C19.4791 17.8404 19.8619 17.75 20.25 17.75H24C24.663 17.75 25.2989 18.0134 25.7678 18.4822C26.2366 18.9511 26.5 19.587 26.5 20.25V24C26.5 24.663 26.2366 25.2989 25.7678 25.7678C25.2989 26.2366 24.663 26.5 24 26.5C18.0326 26.5 12.3097 24.1295 8.0901 19.9099C3.87053 15.6903 1.5 9.96737 1.5 4C1.5 3.33696 1.76339 2.70107 2.23223 2.23223C2.70107 1.76339 3.33696 1.5 4 1.5H7.75C8.41304 1.5 9.04893 1.76339 9.51777 2.23223C9.98661 2.70107 10.25 3.33696 10.25 4V7.75C10.25 8.13811 10.1596 8.5209 9.98607 8.86803C9.8125 9.21517 9.56049 9.51713 9.25 9.75L8.665 10.1888C8.43552 10.364 8.27377 10.6132 8.20724 10.8942C8.1407 11.1751 8.17348 11.4705 8.3 11.73C10.0084 15.1998 12.818 18.006 16.29 19.71Z" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>+7(906)-241-56-18</p>                        
+                    <svg class="h1_show_icon h2_phone_menu_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                        <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
+                    </svg>
                 </div>
-                <div class="h2_other_icons"> <!--Прочие иконки-->
-                    <a href="">
-                        <svg class="h2_other_active_icon" xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.8961 12.0431C22.8509 10.9158 23.3813 9.39376 23.3707 7.81186C23.36 6.22996 22.8092 4.71776 21.8394 3.60793C21.3592 3.0584 20.7906 2.62419 20.166 2.3301C19.5415 2.03601 18.8732 1.8878 18.1993 1.89392C16.8384 1.90628 15.5375 2.54654 14.5827 3.67386C14.3235 3.97523 13.994 4.34513 13.5943 4.78358L12.483 6.00004L11.3716 4.78358C10.971 4.34409 10.6411 3.97418 10.3818 3.67386C9.41954 2.55529 8.11438 1.92689 6.75349 1.92689C5.3926 1.92689 4.08745 2.55529 3.12515 3.67386C1.14286 5.97964 1.1199 9.70749 3.05223 12.0243L12.483 22.9865L21.8961 12.0431ZM1.97871 2.34282C2.60569 1.61383 3.35007 1.03556 4.16933 0.641026C4.9886 0.246491 5.8667 0.0434247 6.75349 0.0434247C7.64028 0.0434247 8.51839 0.246491 9.33765 0.641026C10.1569 1.03556 10.9013 1.61383 11.5283 2.34282C11.774 2.62954 12.0923 2.98636 12.483 3.4133C12.8719 2.98636 13.1901 2.62901 13.4376 2.34125C14.6941 0.858215 16.406 0.0161247 18.1966 0.000229163C19.9873 -0.0156663 21.71 0.795934 22.9858 2.25649C24.2617 3.71704 24.9861 5.70691 24.9998 7.78834C25.0135 9.86977 24.3153 11.8723 23.0588 13.3553L13.4376 24.5404C13.1844 24.8347 12.841 25 12.483 25C12.1249 25 11.7815 24.8347 11.5283 24.5404L1.90445 13.3537C0.670297 11.8742 -0.0136882 9.88978 0.000207661 7.82901C0.0141035 5.76825 0.724764 3.79654 1.97871 2.33968V2.34282Z"/>
-                        </svg>
-                    </a>                    
-                    <a href="">
-                        <svg class="h2_other_active_icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                            <path d="M1.13636 25C0.834981 25 0.545943 24.9177 0.332833 24.7712C0.119724 24.6247 0 24.426 0 24.2188L0 7.03125C0 6.82405 0.119724 6.62534 0.332833 6.47882C0.545943 6.33231 0.834981 6.25 1.13636 6.25C1.43775 6.25 1.72678 6.33231 1.93989 6.47882C2.153 6.62534 2.27273 6.82405 2.27273 7.03125L2.27273 24.2188C2.27273 24.426 2.153 24.6247 1.93989 24.7712C1.72678 24.9177 1.43775 25 1.13636 25ZM23.8636 25C23.5623 25 23.2732 24.9177 23.0601 24.7712C22.847 24.6247 22.7273 24.426 22.7273 24.2188V8.59375C22.7273 8.38655 22.847 8.18784 23.0601 8.04132C23.2732 7.89481 23.5623 7.8125 23.8636 7.8125C24.165 7.8125 24.4541 7.89481 24.6672 8.04132C24.8803 8.18784 25 8.38655 25 8.59375V24.2188C25 24.426 24.8803 24.6247 24.6672 24.7712C24.4541 24.9177 24.165 25 23.8636 25ZM11.3636 24.2188C11.3636 24.426 11.4834 24.6247 11.6965 24.7712C11.9096 24.9177 12.1986 25 12.5 25C12.8014 25 13.0904 24.9177 13.3035 24.7712C13.5166 24.6247 13.6364 24.426 13.6364 24.2188L13.6364 0.78125C13.6364 0.57405 13.5166 0.375335 13.3035 0.228822C13.0904 0.0823094 12.8014 0 12.5 0C12.1986 0 11.9096 0.0823094 11.6965 0.228822C11.4834 0.375335 11.3636 0.57405 11.3636 0.78125L11.3636 24.2188Z"/>
-                        </svg>
-                    </a>
-                    <div class="h2_phone_block">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M15.25 1.5C18.2337 1.5 21.0952 2.68526 23.205 4.79505C25.3147 6.90483 26.5 9.76631 26.5 12.75M15.25 6.5C16.9076 6.5 18.4973 7.15848 19.6694 8.33058C20.8415 9.50269 21.5 11.0924 21.5 12.75M16.29 19.71C16.5482 19.8286 16.839 19.8556 17.1146 19.7868C17.3902 19.718 17.6342 19.5573 17.8063 19.3312L18.25 18.75C18.4829 18.4395 18.7848 18.1875 19.132 18.0139C19.4791 17.8404 19.8619 17.75 20.25 17.75H24C24.663 17.75 25.2989 18.0134 25.7678 18.4822C26.2366 18.9511 26.5 19.587 26.5 20.25V24C26.5 24.663 26.2366 25.2989 25.7678 25.7678C25.2989 26.2366 24.663 26.5 24 26.5C18.0326 26.5 12.3097 24.1295 8.0901 19.9099C3.87053 15.6903 1.5 9.96737 1.5 4C1.5 3.33696 1.76339 2.70107 2.23223 2.23223C2.70107 1.76339 3.33696 1.5 4 1.5H7.75C8.41304 1.5 9.04893 1.76339 9.51777 2.23223C9.98661 2.70107 10.25 3.33696 10.25 4V7.75C10.25 8.13811 10.1596 8.5209 9.98607 8.86803C9.8125 9.21517 9.56049 9.51713 9.25 9.75L8.665 10.1888C8.43552 10.364 8.27377 10.6132 8.20724 10.8942C8.1407 11.1751 8.17348 11.4705 8.3 11.73C10.0084 15.1998 12.818 18.006 16.29 19.71Z" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <p>+7(906)-241-56-18</p>                        
-                        <svg class="h1_show_icon h2_phone_menu_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                            <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
-                        </svg>
+            </div>
+        </div>
+        
+        <div class="checkout_body">
+            <div class="co_body">
+                <div class="co_options_block"></div>
+
+                <div class="co_price_block">
+                    <div class="co_price_promo_field">
+                        <p>Промокод</p>
+                        <a class="co_price_text_grey co_price_right_text" href="">Добавить</a>
+                    </div>
+                    <div class="co_price_info">
+                        <h1 class="co_h_text">Сумма заказа</h1>
+                        <div class="co_price_info_2_text">
+                            <p class="co_price_text_grey">Количество товаров:</p>
+                            <p class="co_price_right_text">1 шт.</p>
+                        </div>
+                        <div class="co_price_info_2_text">
+                            <p class="co_price_text_grey">Сумма:</p>
+                            <p class="co_price_right_text">2 300 ₽</p>
+                        </div>
+                        <div class="co_price_info_2_text">
+                            <p class="co_price_text_grey">Доставка:</p>
+                            <p class="co_price_right_text">600 ₽</p>
+                        </div>
+                        <div class="co_price_info_2_text co_price_info_sum">
+                            <p class="co_price_text_grey">Сумма заказа</p>
+                            <p class="co_price_right_text co_bold_text">2 900 ₽</p>
+                        </div>
+                        <p class="co_price_right_text co_price_info_points">+69 баллов</p>
+                        <div class="co_points_use_input_field">
+                            <input class="co_price_text_grey" type="text" value="Баллы для использования">
+                            <a class="co_bold_text" href="">Применить</a>
+                        </div>
+                        <a class="co_final_buy_button" href="">
+                            <p class="co_bold_text">Оформить заказ ( 2 900 ₽ )</p>
+                        </a>
+                        <div class="co_price_info_terms_checkbox">
+                            <input type="checkbox" id="co_apply_terms_of_use" name="terms_of_use" unchecked/>
+                            <label class="co_price_info_terms_checkbox_text" for="terms_of_use">
+                                <p>Отметьте флажок, чтобы принять <span class="co_price_text_grey">Условия использования</span></p>
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="header_block3">
-                <a class="h3_navigation_blocks h3_catalog_button" href="/main.html"> <!--Каталог, перенос на главную страницу-->
-                    <svg class="h3_navigation_blocks_icon" xmlns="http://www.w3.org/2000/svg" fill="none" width="20px" height="20px" viewBox="0 0 16 16">
-                        <path d="M0 0h7v7H0V0zm2 2v3h3V2H2zM0 9h7v7H0V9zm9-9h7v7H9V0zm2 2v3h3V2h-3zM9 9h7v7H9V9zm2 2v3h3v-3h-3zm-9 0v3h3v-3H2z" fill-rule="evenodd"/>
-                    </svg>
-                    <p class="h3_navigation_blocks_text">Каталог товаров</p>
-                    <svg class="h1_show_icon h3_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                        <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
-                    </svg>
-                </a>
-                <div class="h3_search_block">
-                    <input value="Поиск">
-                    <a href="/main.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M19 19L14.4439 14.4439M14.4439 14.4439C15.1751 13.7126 15.7552 12.8444 16.151 11.8889C16.5468 10.9335 16.7505 9.90942 16.7505 8.87523C16.7505 7.84104 16.5468 6.81697 16.151 5.86151C15.7552 4.90604 15.1751 4.03788 14.4439 3.3066C13.7126 2.57532 12.8444 1.99523 11.8889 1.59947C10.9335 1.2037 9.90942 1 8.87523 1C7.84104 1 6.81697 1.2037 5.86151 1.59947C4.90604 1.99523 4.03788 2.57532 3.3066 3.3066C1.82971 4.78349 1 6.78659 1 8.87523C1 10.9639 1.82971 12.967 3.3066 14.4439C4.78349 15.9207 6.78659 16.7505 8.87523 16.7505C10.9639 16.7505 12.967 15.9207 14.4439 14.4439Z" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-                <a class="h3_navigation_blocks" href="/main.html"> <!--Аккаунт, перенос на главную страницу-->
-                    <svg class="h3_navigation_blocks_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 0C6.94943 0 5.90914 0.206926 4.93853 0.608964C3.96793 1.011 3.08601 1.60028 2.34315 2.34315C0.842855 3.84344 0 5.87827 0 8C0 10.1217 0.842855 12.1566 2.34315 13.6569C3.08601 14.3997 3.96793 14.989 4.93853 15.391C5.90914 15.7931 6.94943 16 8 16C10.1217 16 12.1566 15.1571 13.6569 13.6569C15.1571 12.1566 16 10.1217 16 8C16 6.94943 15.7931 5.90914 15.391 4.93853C14.989 3.96793 14.3997 3.08601 13.6569 2.34315C12.914 1.60028 12.0321 1.011 11.0615 0.608964C10.0909 0.206926 9.05058 0 8 0ZM4.056 13.024C4.4 12.304 6.496 11.6 8 11.6C9.504 11.6 11.6 12.304 11.944 13.024C10.8233 13.9164 9.43262 14.4016 8 14.4C6.512 14.4 5.144 13.888 4.056 13.024ZM13.088 11.864C11.944 10.472 9.168 10 8 10C6.832 10 4.056 10.472 2.912 11.864C2.06106 10.7556 1.59985 9.39734 1.6 8C1.6 4.472 4.472 1.6 8 1.6C11.528 1.6 14.4 4.472 14.4 8C14.4 9.456 13.904 10.8 13.088 11.864ZM8 3.2C6.448 3.2 5.2 4.448 5.2 6C5.2 7.552 6.448 8.8 8 8.8C9.552 8.8 10.8 7.552 10.8 6C10.8 4.448 9.552 3.2 8 3.2ZM8 7.2C7.68174 7.2 7.37652 7.07357 7.15147 6.84853C6.92643 6.62348 6.8 6.31826 6.8 6C6.8 5.68174 6.92643 5.37652 7.15147 5.15147C7.37652 4.92643 7.68174 4.8 8 4.8C8.31826 4.8 8.62348 4.92643 8.84853 5.15147C9.07357 5.37652 9.2 5.68174 9.2 6C9.2 6.31826 9.07357 6.62348 8.84853 6.84853C8.62348 7.07357 8.31826 7.2 8 7.2Z"/>
-                    </svg>
-                    <p class="h3_navigation_blocks_text">Аккаунт</p>
-                    <svg class="h1_show_icon h3_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                        <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
-                    </svg>
-                </a> <!--Корзина, перенос на страницу корзины-->
-                <a class="h3_navigation_blocks" href="/main.html">
-                    <svg class="h3_navigation_blocks_icon" xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25" fill="none">
-                        <path d="M11 14.1667C9.4529 14.1667 7.96917 13.5521 6.87521 12.4581C5.78125 11.3642 5.16667 9.88042 5.16667 8.33332H7.5C7.5 9.26158 7.86875 10.1518 8.52513 10.8082C9.1815 11.4646 10.0717 11.8333 11 11.8333C11.9283 11.8333 12.8185 11.4646 13.4749 10.8082C14.1313 10.1518 14.5 9.26158 14.5 8.33332H16.8333C16.8333 9.88042 16.2188 11.3642 15.1248 12.4581C14.0308 13.5521 12.5471 14.1667 11 14.1667ZM11 2.49999C11.9283 2.49999 12.8185 2.86874 13.4749 3.52512C14.1313 4.18149 14.5 5.07173 14.5 5.99999H7.5C7.5 5.07173 7.86875 4.18149 8.52513 3.52512C9.1815 2.86874 10.0717 2.49999 11 2.49999ZM19.1667 5.99999H16.8333C16.8333 5.23395 16.6824 4.4754 16.3893 3.76767C16.0961 3.05994 15.6665 2.41688 15.1248 1.8752C14.5831 1.33353 13.9401 0.903845 13.2323 0.610693C12.5246 0.31754 11.766 0.166656 11 0.166656C9.4529 0.166656 7.96917 0.781238 6.87521 1.8752C5.78125 2.96916 5.16667 4.45289 5.16667 5.99999H2.83333C1.53833 5.99999 0.5 7.03832 0.5 8.33332V22.3333C0.5 22.9522 0.745833 23.5457 1.18342 23.9832C1.621 24.4208 2.21449 24.6667 2.83333 24.6667H19.1667C19.7855 24.6667 20.379 24.4208 20.8166 23.9832C21.2542 23.5457 21.5 22.9522 21.5 22.3333V8.33332C21.5 7.71448 21.2542 7.12099 20.8166 6.68341C20.379 6.24582 19.7855 5.99999 19.1667 5.99999Z"/>
-                    </svg>
-                    <p class="h3_navigation_blocks_text">Корзина</p>
-                    <svg class="h1_show_icon h3_show_icon" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                        <path d="M6.92791 0L7.5 0.743627L4.38211 4.79398C4.33215 4.85927 4.27274 4.91108 4.2073 4.94644C4.14187 4.9818 4.07169 5 4.00081 5C3.92993 5 3.85975 4.9818 3.79431 4.94644C3.72888 4.91108 3.66947 4.85927 3.61951 4.79398L0.5 0.743627L1.07209 0.000700951L4 3.80224L6.92791 0Z"/>
-                    </svg>
-                </a>
-            </div>
         </div>
-        <div class="footer">
-            <div class="footer_block1">  <!--Блок с ссылками-текстами-->
-                <div class="f1_text_blocks">
-                    <h1>Моя учетная запись</h1>
-                    <a href="">Войти</a>
-                    <a href="">Создать учетную запись</a>
-                </div>
-                <div class="f1_text_blocks">
-                    <h1>О компании</h1>
-                    <a href="">О нас</a>
-                    <a href="">Контакты</a>
-                    <a href="">Подарочные сертификаты</a>
-                    <a href="">Сроки, доставка и оплата</a>
-                    <a href="">Политика конфиденциальности</a>
-                    <a href="">Сервис / Сроки / Качество</a>
-                </div>
-                <div class="f1_text_blocks">
-                    <h1>Покупательский сервис</h1>
-                    <a href="">Ваши заказы</a>
-                    <a href="">Отложенные</a>
-                    <a href="">Список сравнения</a>
-                </div>
-                <div class="f1_text_blocks">
-                    <h1>Контакты</h1>
-                    <a href="">г. Санкт-Петербург, ул. Заставская 33П</a>
-                    <a href="">+7(906)-241-56-18</a>
-                    <a href="">Пн-Пт: 10.00 - 19.00</a>
-                    <a href="">Сб-Вс: выходные</a>
-                    <a href="">info@webway.online</a>
-                    <a href="">Посмотреть на карте</a>
-                </div>
-            </div>
-            <div class="footer_block2">
+
+        <div class="footer_short">
+            <div class="footer_short_lozung">
                 <p>© 2020 - 2025 WebWay. Хобби должно быть доступным.</p>
-                <div class="f2_icons_block">  <!--Блок с системами оплаты-->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32" fill="none">
-                        <path d="M20.687 10.1891C20.6642 14.629 22.2906 17.1065 23.5158 18.5797C24.7745 20.091 25.1973 21.0603 25.1923 22.412C25.183 24.4804 24.1883 25.3934 23.2575 25.4288C21.6336 25.4909 20.6894 24.347 19.9388 23.4818L19.3538 30.2362C20.1069 31.0924 21.5014 31.8392 22.9475 31.872C26.342 31.872 28.5628 27.7375 28.5748 21.327C28.5881 13.1913 24.0142 12.741 24.0455 9.10459C24.0563 8.00194 24.4827 6.82526 25.417 6.52608C25.8795 6.37495 27.1562 6.25929 28.6037 7.90401L29.1719 1.36907C28.3934 0.669699 27.393 1.14441e-05 26.1473 1.14441e-05C22.9523 1.14441e-05 20.7052 4.19085 20.687 10.1891ZM34.6309 0.562902C34.0111 0.562902 33.4888 1.45505 33.2556 2.82411L28.4067 31.392H31.7987L32.4738 26.789H36.6188L37.0103 31.392H40L37.3911 0.562902H34.6309ZM35.1055 8.891L36.0844 20.4677H33.4034L35.1055 8.891ZM16.5744 0.563288L13.9006 31.3916H17.133L19.8055 0.562517L16.5744 0.563288ZM11.7927 0.563288L8.42828 21.5464L7.06734 3.70469C6.90766 1.71297 6.27703 0.562902 5.57672 0.562902H0.0770312L0 1.45813C1.12906 2.06266 2.41188 3.0377 3.18906 4.08097C3.66469 4.71828 3.80031 5.27538 3.95656 6.78979L6.53422 31.392H9.95L15.1869 0.562902L11.7927 0.563288Z" fill="url(#paint0_linear_219_448)"/>
-                        <defs>
-                            <linearGradient id="paint0_linear_219_448" x1="1838.96" y1="95.8072" x2="2065.68" y2="-3164.33" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#222357"/>
-                                <stop offset="1" stop-color="#254AA5"/>
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32" fill="none">
-                        <path d="M7.27907 31.929V29.8052C7.27907 28.9909 6.79829 28.4601 5.97419 28.4601C5.56222 28.4601 5.11584 28.6017 4.80679 29.0619C4.56655 28.6725 4.22324 28.4601 3.7082 28.4601C3.36474 28.4601 3.02158 28.5662 2.74678 28.9556V28.5309H2.02576V31.929H2.74678V30.0529C2.74678 29.4513 3.05584 29.168 3.53662 29.168C4.0171 29.168 4.25765 29.4866 4.25765 30.0529V31.929H4.97868V30.0529C4.97868 29.4513 5.32183 29.168 5.76821 29.168C6.24899 29.168 6.48923 29.4866 6.48923 30.0529V31.929H7.27907ZM17.957 28.5309H16.7897V27.5044H16.0687V28.5309H15.4163V29.2033H16.0685V30.761C16.0685 31.5398 16.3776 31.9998 17.2017 31.9998C17.5107 31.9998 17.8539 31.8937 18.0944 31.7522L17.8883 31.1149C17.6823 31.2565 17.4421 31.292 17.2704 31.292C16.927 31.292 16.7897 31.0796 16.7897 30.7255V29.2033H17.957V28.5309ZM24.0686 28.4599C23.6567 28.4599 23.382 28.6725 23.2103 28.9556V28.5309H22.4893V31.929H23.2103V30.0176C23.2103 29.4513 23.4505 29.1327 23.8969 29.1327C24.0342 29.1327 24.206 29.1681 24.3433 29.2035L24.5493 28.4956C24.4119 28.4601 24.206 28.4601 24.0686 28.4601M14.8326 28.8142C14.4892 28.5664 14.0085 28.4603 13.4935 28.4603C12.6696 28.4603 12.1203 28.885 12.1203 29.5576C12.1203 30.124 12.5322 30.4425 13.2533 30.5488L13.5966 30.5842C13.9743 30.6549 14.1803 30.7611 14.1803 30.9382C14.1803 31.1859 13.9056 31.3629 13.4248 31.3629C12.944 31.3629 12.5665 31.1859 12.3261 31.009L11.9828 31.5753C12.3605 31.8584 12.8755 32 13.3904 32C14.3518 32 14.9013 31.54 14.9013 30.9027C14.9013 30.3009 14.4549 29.9823 13.7681 29.8762L13.4248 29.8407C13.1158 29.8052 12.8755 29.7346 12.8755 29.5223C12.8755 29.2744 13.1158 29.1328 13.4935 29.1328C13.9056 29.1328 14.3176 29.3097 14.5236 29.416L14.8326 28.8142ZM33.9914 28.4603C33.5793 28.4603 33.3046 28.6726 33.1329 28.9558V28.5311H32.4119V31.9292H33.1329V30.0178C33.1329 29.4515 33.3733 29.1328 33.8195 29.1328C33.957 29.1328 34.1287 29.1683 34.2661 29.2036L34.472 28.4957C34.3347 28.4603 34.1287 28.4603 33.9914 28.4603ZM24.7897 30.2301C24.7897 31.2566 25.4763 32 26.5408 32C27.0214 32 27.3647 31.8939 27.708 31.6107L27.3647 31.009C27.0901 31.2213 26.8154 31.3274 26.5064 31.3274C25.9227 31.3274 25.5107 30.9027 25.5107 30.2301C25.5107 29.593 25.9227 29.1681 26.5064 29.1328C26.8154 29.1328 27.0901 29.2389 27.3647 29.4515L27.708 28.8497C27.3647 28.5664 27.0214 28.4603 26.5408 28.4603C25.4763 28.4603 24.7897 29.2036 24.7897 30.2301ZM31.4506 30.2301V28.5311H30.7296V28.9558C30.4892 28.6373 30.1459 28.4603 29.6995 28.4603C28.7725 28.4603 28.0515 29.2036 28.0515 30.2301C28.0515 31.2566 28.7725 32 29.6995 32C30.1801 32 30.5236 31.8231 30.7296 31.5045V31.9292H31.4506V30.2301ZM28.8068 30.2301C28.8068 29.6284 29.1845 29.1328 29.8024 29.1328C30.3861 29.1328 30.7983 29.593 30.7983 30.2301C30.7983 30.8319 30.3861 31.3274 29.8024 31.3274C29.1845 31.292 28.8068 30.8319 28.8068 30.2301ZM20.1889 28.4603C19.2274 28.4603 18.5407 29.1681 18.5407 30.2301C18.5407 31.2921 19.2273 32 20.2231 32C20.7037 32 21.1845 31.8584 21.5623 31.54L21.2188 31.009C20.9441 31.2213 20.6008 31.3629 20.2575 31.3629C19.8111 31.3629 19.3648 31.1505 19.2617 30.5486H21.6996V30.2656C21.734 29.1681 21.116 28.4603 20.1889 28.4603ZM20.1887 29.0974C20.6349 29.0974 20.9441 29.3807 21.0126 29.9117H19.2959C19.3646 29.4515 19.6737 29.0974 20.1887 29.0974ZM38.077 30.2301V27.1859H37.356V28.9558C37.1156 28.6373 36.7723 28.4603 36.3259 28.4603C35.3989 28.4603 34.6779 29.2036 34.6779 30.2301C34.6779 31.2566 35.3989 32 36.3259 32C36.8067 32 37.15 31.8231 37.356 31.5045V31.9292H38.077V30.2301ZM35.4333 30.2301C35.4333 29.6284 35.8109 29.1328 36.429 29.1328C37.0127 29.1328 37.4246 29.593 37.4246 30.2301C37.4246 30.8319 37.0127 31.3274 36.429 31.3274C35.8109 31.292 35.4333 30.8319 35.4333 30.2301ZM11.3303 30.2301V28.5311H10.6092V28.9558C10.3688 28.6373 10.0255 28.4603 9.57916 28.4603C8.65215 28.4603 7.93112 29.2036 7.93112 30.2301C7.93112 31.2566 8.65215 32 9.57916 32C10.0599 32 10.4033 31.8231 10.6092 31.5045V31.9292H11.3303V30.2301ZM8.65215 30.2301C8.65215 29.6284 9.02987 29.1328 9.64782 29.1328C10.2315 29.1328 10.6436 29.593 10.6436 30.2301C10.6436 30.8319 10.2315 31.3274 9.64782 31.3274C9.02987 31.292 8.65215 30.8319 8.65215 30.2301Z" fill="black"/>
-                        <path d="M14.5922 2.72559H25.4076V22.7609H14.5922V2.72559Z" fill="#FF5F00"/>
-                        <path d="M15.279 12.7433C15.279 8.67261 17.133 5.06192 19.9827 2.72559C17.8885 1.02651 15.2448 0 12.3607 0C5.52781 0 0 5.69902 0 12.7433C0 19.7877 5.52781 25.4867 12.3605 25.4867C15.2446 25.4867 17.8883 24.4602 19.9827 22.7609C17.133 20.4601 15.279 16.8141 15.279 12.7433Z" fill="#EB001B"/>
-                        <path d="M39.9998 12.7433C39.9998 19.7875 34.472 25.4867 27.6393 25.4867C24.7552 25.4867 22.1115 24.4602 20.0171 22.7609C22.9012 20.4247 24.721 16.8141 24.721 12.7433C24.721 8.67261 22.8668 5.06192 20.0171 2.72559C22.1114 1.02651 24.7552 0 27.6393 0C34.472 0 39.9998 5.73449 39.9998 12.7433Z" fill="#F79E1B"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="32" viewBox="0 0 70 32" fill="none">
-                        <rect width="70" height="32" fill="url(#pattern0_219_461)"/>
-                        <defs>
-                            <pattern id="pattern0_219_461" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_219_461" transform="matrix(0.0120482 0 0 0.0263554 0 -0.0139307)"/>
-                            </pattern>
-                            <image id="image0_219_461" width="83" height="39" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAnCAYAAABzAXTXAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAF8WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDYwLCAyMDIwLzA1LzEyLTE2OjA0OjE3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIzLTAyLTA2VDA4OjU3OjM5KzAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMi0wNlQwODo1OTo1NSswMzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMi0wNlQwODo1OTo1NSswMzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0NjE5MWI3Ny1hYWRmLWM4NDMtOTdjOC0zMjNkNzY1ZGVkZGMiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpiMzMwZWZkMy1lZGUxLTIwNDMtOTM3Zi1jNjA3NmExMTZmNmMiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkZDI1OWZiOS1mM2M2LWEwNDUtYWE1My03YWUwZDEzNTI5NjAiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmRkMjU5ZmI5LWYzYzYtYTA0NS1hYTUzLTdhZTBkMTM1Mjk2MCIgc3RFdnQ6d2hlbj0iMjAyMy0wMi0wNlQwODo1NzozOSswMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NjE5MWI3Ny1hYWRmLWM4NDMtOTdjOC0zMjNkNzY1ZGVkZGMiIHN0RXZ0OndoZW49IjIwMjMtMDItMDZUMDg6NTk6NTUrMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5CoZTUAAAFHElEQVRo3u2ab2wTZRzHW5hj7C8wGJs4/gw2iUGDCdFCeEGTGaHriEA4ZO1dosY/ISa+EJO+0IT4RiVKMoGBs84CDpgHbe86Fl9IgoC8MJFuK/vDxqR1m//egKAGksHj7+m12619nuvdei2M3JJvmt797vnzeX6/3/N7bjUhhEyG9JEBwYBpwDRgGjJgGjCnPUyb6LSQVCdwz9e3O6q1NriOZ2bb/Y7VtHaxrDxTGLfHfVBtBedTqfpbxTO59e3cKlob+D62q/JeX1IjjlhqvCOWZd6wpLawpTKqQUs5Vquk+R5JJZ4+S4lbUoG725LXHFpp3vtjERUmDASlUKeaSUlguLdAt1K1iSc58QzbpmB7ntaX1WPNg2c/S90fswjbrwyM7npSHEXVwgha7htGVd5f0bLTEbSED6PKtuto0clfUMXxIbSw9RpacGwQzT86gEqPXEVzv+5HJS19qMjdiwq+7EGzv7gyNutQ6EJOU/dOM/xphYnsAW7Y6t8yRwlkXYDdpqYtPWDiScBzXnX9STCrhdFKgHlPDnPpqQha/G0YPQEwHz+RDHOepx/NAZDFX/WiQgAZg4kAJspt6kY5B7rOmT+9VKYJpiT2AxpIaXLcQLZg2kVuu/pxSzCxavzDZ1f4J7wyEWY5wCz7RoIZ90o5zPzmKyjvsATysYNdaOb+TmT+vHPQ9NFPpRphcgP08Has1dBO+jADXHAqMKuFyDqAeV8pxBNhJoQ4AWYQmRqDAa0wES132gPsx9mCCfYbtPQlh4kFIX5IHuK0fCkPcTlMWYijGQATQEra97NVE0yA5qJsPL3Zg8n50oFp5ntyq7yR80ohTsqX8hAnwmwMtpi0DYy7lLTx+F6u0djGlGHaTzuq4NpYOjCxKo51FSzmw9/FvZKWL+MhTs+XQTnMa1ph3qsVGxYmeMq72YIZK4VQujCjHrrnXA545fsA8y4pxEn5Uh7iBJj/aYWJy6TXEmD+kA2YuNCH7zf0gjnupZ7+peWtQwcB5g2lEFfMl5JuK8G8DDlSIORNIT6QWt/WUkrYHdAbJti9TSjXhuBzbzow5Z5aerRv7bwjfdzclv73AKar2N3jKmzuceU3h1wQ4q7cpi4XgHSZG4NRmSbp8ptKMDvsIruRcP3fNYHN+bEJcoT7v0Gp9JyeMM17zDMgIq4SYL5T3+7cohYmrgTwJpoJ2cSGZxVhxs69N5O8U2A3xwZ3ijDBw3CuX6MnTFjUOsK9m+uFl4q0wIQF+UR7mlClfzZ52QpFmLEa8jghb7pt+22zAMTtpHvgzXrDBJvvCYu2T7r34GECo12pivaO2JmbIUzkD9wA4Zm/MWQdYYbqAhwLn/cTro/hMulhgInbVHM2j8KUQom7o7LhE9EF0A8mTb6J5x8YzL/wQqt9a9QhK3/OqOvAuSM7MNkNGYB5F5/5lQQ2F+DTgzfe+CY8BZjO11VM8o6t1VmcaZh4UpPrXN1gRtJ+064GJj714NNPiomO22fWM9lXpjXMWKhfVPQYkXsjCzD/xG/Ypz1M2L13K53Z7TxTnmmYMIYPk98iTUOYNv/O5Qq2Fye9ScoMzFsv+riyRwJmLNRDFI/ZnWmY8jTySMDEYUay3SiyKzII83cA9ir9XyYPEUy74Kglyu9YnWhs45kFiXbymm/cDkokarugF3imZBy83/k0zW6T2PCMmWdmKk2ANCa58IksbosXndpXoGG98YsO4+cxBkxDBkwDpgHTgGlA0E3/Azn3AHrn4SDEAAAAAElFTkSuQmCC"/>
-                        </defs>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="32" viewBox="0 0 102 32" fill="none">
-                        <rect width="102" height="32" fill="url(#pattern0_219_471)"/>
-                        <defs>
-                            <pattern id="pattern0_219_471" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_219_471" transform="matrix(0.00813008 0 0 0.0259146 0 -0.00533537)"/>
-                            </pattern>
-                            <image id="image0_219_471" width="123" height="39" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAAnCAYAAAAvizfzAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAF8WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDYwLCAyMDIwLzA1LzEyLTE2OjA0OjE3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIzLTAyLTA2VDA4OjU3OjM5KzAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMi0wNlQwODo1OToyMSswMzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMi0wNlQwODo1OToyMSswMzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDVmODljNy0wMzkzLWZlNDUtOGMzMS1hMzYxZjcwODI2MmUiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDplM2JiYWJhMC1kMzM1LWM5NDYtYmMwMi0zYWMyMGI3OTVmZTciIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpjMzJjMWVmNy01MTcwLTJjNGYtOGM0Zi0yNWE0NTczZmE0MjkiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmMzMmMxZWY3LTUxNzAtMmM0Zi04YzRmLTI1YTQ1NzNmYTQyOSIgc3RFdnQ6d2hlbj0iMjAyMy0wMi0wNlQwODo1NzozOSswMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2NDVmODljNy0wMzkzLWZlNDUtOGMzMS1hMzYxZjcwODI2MmUiIHN0RXZ0OndoZW49IjIwMjMtMDItMDZUMDg6NTk6MjErMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5A6oGLAAAJ5klEQVR42u2bCXQUVRaGEwUJILINSVhDEsKOojKCoKC4DIiKwqAoorKJHhUHEAZnZBsHFxREQFFBWWUVRZZBVAQXBhCy7/u+J52lO0unk76+/1ZedVUnHRAnjIdUnXM5qVevX1fX9+69/7uvcDvv2dtsWNMwN/EPGdY0zIBtwDbMgG2YAdswA7ZhBmzD/rCwA736UOrCpZT5xhrVIkeMVa/HjHtUdy1p9rwLfmnYjaMo49/v6Cx1wRIKHzK6UX9syhNelDmnI4X189PfT39fbodF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"/>
-                        </defs>
-                    </svg>
-                </div>
             </div>
-            <p class="footer_block3">* Вся представленная на сайте информация, касающаяся комплектаций, технических характеристик, цветовых сочетаний, а также стоимости позиций, запасных частей и сервисного обслуживания носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Неизменность цен и отсутствие ошибок на сайте не гарантируется.</p>
         </div>
     </body>
 </html>
